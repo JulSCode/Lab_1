@@ -13,6 +13,7 @@
 Были созданы два класса:
 - ContainerElement, содержащий информацию об узле списка (next - следующий узел, number - содержащееся в узле число);
 - MyContainer, представляющий непосредственно сам список (first - первый узел, last - последний узел, size - размер).
+
 Были реализованы следующие виды методов:
 - добавления (addToHead(), addToTail(), addToIndexaddToIndex(int index, Integer number));
 - получения информации (getSize(), printContainer(), getFirst(), getLast(), get(int index));
